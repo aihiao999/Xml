@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.lywgames.com"
+	elementFormDefault="qualified">
+	<element name="students">
+		<complexType>
+			<sequence maxOccurs="unbounded">
+				<element name="student">
+					<complexType>
+						<sequence>
+							<element name="name" type="string"></element>
+							<element name="age" type="int"></element>
+							<element name="sex" type="string"></element>
+						</sequence>
+						<attribute name="id" type="string" default=""/>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
