@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE students SYSTEM "./students.dtd"> 
+<students>
+	<student id="10086">
+		<name>刘邦</name>
+		<age>18</age>
+		<sex>男</sex>
+	</student>
+	<student id="10087">
+		<name>吕雉</name>
+		<age>16</age>
+		<sex>女</sex>
+	</student>
+</students>
